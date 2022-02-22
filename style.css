@@ -65,6 +65,7 @@ body{
     color:#fff;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 .card__price--padding{
     padding: 40px;
