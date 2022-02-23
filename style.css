@@ -7,7 +7,6 @@
     --fiveth-color: #e7e4e4b4;
     --six-color:#ada9a9;
    --shadow-color: #00000033;
-
 }
 *{
     margin: 0;
@@ -93,6 +92,14 @@ body{
         max-width: 80%;
     }
 }
+@media only screen and (max-width:630px){
+    .card__price{        
+        border-radius: 0;      
+    }
+    .card__desc{        
+        border-radius: 0 0 10px 10px;
+    }
+}
 @media only screen and (max-width: 430px){
     body{
         display: block;
@@ -111,12 +118,5 @@ body{
         margin-top: 20px;
         line-height: 1.7;
         width: 100%;
-    }
-    .card__price{
-        
-        border-radius: 0;      
-    }
-    .card__desc{        
-        border-radius: 0 0 10px 10px;
-    }
+    }     
 }
